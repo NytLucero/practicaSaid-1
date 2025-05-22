@@ -1,0 +1,87 @@
+/* Fuente */
+
+.commissioner-uniquifier {
+    font-family: "Commissioner", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "FLAR" 0,
+      "VOLM" 0;
+}
+
+/**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.login {
+    padding: 50px;
+    width: 480px;
+    margin-bottom: 20px;
+}
+
+.login img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    color: #281878;
+    margin-bottom: 40px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 6px;
+
+    border: none;
+    border: 2px solid #281878;
+
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.forgot-pass{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #281878;
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: #281878;
+    color: white;
+    cursor: pointer;
+
+    font-weight: 600;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e1355;
+}
