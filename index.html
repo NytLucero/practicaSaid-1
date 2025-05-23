@@ -18,8 +18,8 @@
         <img src="/img/login-logo.svg" alt="arlet_logo">
         <h1>Tu punto de venta</h1>
                
-        <form method="post" action="#">
-
+        <form onsubmit="mostrarCarga(event)" method="post" action="/dashboard.html" id="loginForm">
+            
             <input type="email" placeholder="Email" required>
 
             <div class="pass">
@@ -31,9 +31,13 @@
             <a href="#">¿Olvidaste tu contraseña? Recupérala</a>.
             </p>
 
-            <input type="submit" value="Sign in">
-            
+            <input type="submit" value="Sign in" id="btnLogin">     
         </form>
+
+        <div id="overlay">
+            <img src="/img/pills-loader-white.svg" alt="Cargando...">
+        </div>
+
     </div>
     <script src="/index.js"></script>
 </body>

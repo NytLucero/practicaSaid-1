@@ -1,0 +1,20 @@
+/* Fuente */
+
+.commissioner-uniquifier {
+    font-family: "Commissioner", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "FLAR" 0,
+      "VOLM" 0;
+}
+
+/**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
